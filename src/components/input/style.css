@@ -1,0 +1,18 @@
+.inputGroup{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+input,
+select {
+  margin-top: 5px;
+  width: 100%;
+  padding: 0.65rem 1.5rem;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  border: 2px solid #ffffff;
+  background-color: #a4a7ac;
+  border-radius: 10px;
+  outline: none;
+}
