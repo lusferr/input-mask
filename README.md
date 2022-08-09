@@ -2,5 +2,10 @@
 
 ## Projeto desenvolvido com React
 
-### `npm start`
+#### Criando input masks personalizados utilizando regex
 
+Input Masks desenvolvidos:
+- CEP
+- Telefone
+- Valor monetário em real
+- CNPJ
