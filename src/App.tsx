@@ -1,7 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import Input from './components/input';
 import './style.css'
-import { currency } from './utils/masks';
 
 interface IDados {
   cep: string;
@@ -11,20 +10,20 @@ interface IDados {
 }
 
 function App() {
-  const [endereco, setEndereco] = useState<IDados>({} as IDados);
+  const [dados, setDados] = useState<IDados>({} as IDados);
 
   const handleChange = useCallback(
     (e: React.FormEvent<HTMLInputElement>) => {
-      setEndereco({
-        ...endereco,
+      setDados({
+        ...dados,
         [e.currentTarget.name]: e.currentTarget.value
       });
     },
-    [endereco]
+    [dados]
   );
 
   function handleClick(){
-    console.log(endereco)
+    console.log(dados)
   }
 
   return (
